@@ -1,0 +1,25 @@
+.nav #tab-lvad{background:#e4efdf;color:#355640;border:1px solid #c4d8bd;grid-column:auto}
+.nav #tab-lvad[aria-selected="true"]{background:#cfe2c6;box-shadow:inset 0 -3px #77976b}
+#tab-lvad[hidden]{display:none!important}
+#lvad .section-head,#lvad .lvad-intro{background:#eef5e9;color:#355640}
+#lvad h3{font-size:1rem;color:#355640;margin:22px 16px 10px}
+#lvad .lvad-intro,#lvad .lvad-help{padding:15px;border-radius:12px;line-height:1.55}
+#lvad .limitations,#lvad .tech{font-size:11px;line-height:1.4}
+#lvad select{width:100%;min-width:0;max-width:230px;box-sizing:border-box;padding:8px 2px;border:1px solid #c4d8bd;border-radius:6px;background:#fff;font-size:12px}
+#lvad [aria-invalid="true"]{outline:2px solid #b95545}
+.mobile-section-picker[data-side="lvad"]{background:#e4efdf;border-color:#c4d8bd}
+#lvad .lvad-subtabs,.valve-parts{display:flex;gap:8px;margin:16px 0;flex-wrap:wrap}
+#lvad .lvad-subtabs button,.valve-parts button{flex:1;min-width:140px;background:#f2f7ee;border:1px solid #c4d8bd;color:#355640}
+#lvad .lvad-subtabs button[aria-selected="true"]{background:#cfe2c6;box-shadow:inset 0 -3px #77976b}
+#lvad .lvad-subpanel[hidden]{display:none!important}
+#lvad .lvad-red-row{background:#fff0ed;outline:2px solid #bc5145;outline-offset:-2px}
+#lvad .lvad-red-row .idx{color:#a53a31}
+#lvad .lvad-valve-card{padding:12px 14px;margin:8px 0;border-radius:10px;background:#f3f6f0;border:1px solid #d8e3d2;font-size:13px;line-height:1.5}
+#lvad .lvad-valve-card.alert{background:#fff0ed;border-color:#bc5145;color:#8d302b}
+#lvad .lvad-valve-card p{margin:5px 0 0;font-size:12px}
+.valve-parts button{background:#f4edf9;color:#604878;border:1px solid #d4c1e4}
+.valve-parts button[aria-selected="true"]{background:#785c94;color:white}
+.valve-global-context{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:8px 0 16px}
+.valve-global-context label{display:grid;gap:5px;font-size:13px;font-weight:700}
+.valve-global-context select{max-width:none!important;font-size:14px!important}
+@media(max-width:700px){.valve-global-context{grid-template-columns:1fr}.valve-parts button{min-width:0;padding:10px 8px}}

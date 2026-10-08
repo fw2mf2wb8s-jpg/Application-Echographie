@@ -1,0 +1,17 @@
+{
+  "id": "/",
+  "name": "Évaluation échographie cardiaque standardisée",
+  "short_name": "Écho Cardiaque",
+  "description": "Aide-mémoire échographique pour professionnels de santé. Validation médicale nécessaire ; aucune sauvegarde automatique des observations.",
+  "lang": "fr",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#f3e9e6",
+  "theme_color": "#774e4d",
+  "icons": [
+    {"src": "icons/echo-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icons/echo-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icons/echo-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}

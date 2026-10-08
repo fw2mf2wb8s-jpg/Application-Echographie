@@ -1,0 +1,4 @@
+.editorial-status{font:12px/1.5 system-ui;padding:8px 12px;color:#65534b;display:flex;gap:12px;flex-wrap:wrap}.editorial-status a{color:#554b7e}
+.editor-preview .patient,.editor-preview .reset-area,.editor-preview .report-card,.editor-preview .app-tools,.editor-preview .mobile-actions,.editor-preview .editorial-status{display:none!important}
+.editor-preview .editable-text{cursor:pointer;outline:1px dashed #7986a0;outline-offset:-3px}.editor-preview .editable-text:hover,.editor-preview .editable-text:focus{background:#eef0ff!important;outline:2px solid #6d689b}
+.editor-preview input:not([type=checkbox]){pointer-events:none}.editor-preview .measure{pointer-events:none;opacity:.6}
